@@ -1,0 +1,178 @@
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git init
+Initialized empty Git repository in E:/Kanch Git Local Repo/Kanch Github Repo/.git/
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git remote add origin "https://github.com/kanchanaselvam/Kanch_devopsCourse_2024.git"
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git clone main
+fatal: repository 'main' does not exist
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 904 bytes | 60.00 KiB/s, done.
+From https://github.com/kanchanaselvam/Kanch_devopsCourse_2024
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Docker Material _Murali.pdf
+        Kubernetes_Murali.pdf
+        Linux-Unix Pre-requisite.pdf
+        Module 1.pptx
+        Module 10_Prometheus_Grafana.pptx
+        Module 11_Terraform.pptx
+        Module 3_Docker_1.pptx
+        Module 4_Docker_2.pptx
+        Module 5_Puppet.pptx
+        Module 6_Ansible (1).pptx
+        Module 7_Selenium_And_Maven.pptx
+        Module 8_jenkins.pptx
+        Module 9_kubernetes.pptx
+        SonarQube Server Installation.docx
+        Sonatype NEXUS Installation Commands.docx
+        Terraform.docx
+        Web Application Deplymenyt on AWS.pdf
+        modul 2.pptx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git add -A
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Docker Material _Murali.pdf
+        new file:   Kubernetes_Murali.pdf
+        new file:   Linux-Unix Pre-requisite.pdf
+        new file:   Module 1.pptx
+        new file:   Module 10_Prometheus_Grafana.pptx
+        new file:   Module 11_Terraform.pptx
+        new file:   Module 3_Docker_1.pptx
+        new file:   Module 4_Docker_2.pptx
+        new file:   Module 5_Puppet.pptx
+        new file:   Module 6_Ansible (1).pptx
+        new file:   Module 7_Selenium_And_Maven.pptx
+        new file:   Module 8_jenkins.pptx
+        new file:   Module 9_kubernetes.pptx
+        new file:   SonarQube Server Installation.docx
+        new file:   Sonatype NEXUS Installation Commands.docx
+        new file:   Terraform.docx
+        new file:   Web Application Deplymenyt on AWS.pdf
+        new file:   modul 2.pptx
+
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git commit -m "Devops Course Material"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP@LAPTOP-6TR8L3GE.(none)')
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git config user.email "kanchanaselvam@gmail.com"
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git config user.name "Kanchana Devi"
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git commit -m "Devops Course Material"
+[master 732c29f] Devops Course Material
+ 18 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Docker Material _Murali.pdf
+ create mode 100644 Kubernetes_Murali.pdf
+ create mode 100644 Linux-Unix Pre-requisite.pdf
+ create mode 100644 Module 1.pptx
+ create mode 100644 Module 10_Prometheus_Grafana.pptx
+ create mode 100644 Module 11_Terraform.pptx
+ create mode 100644 Module 3_Docker_1.pptx
+ create mode 100644 Module 4_Docker_2.pptx
+ create mode 100644 Module 5_Puppet.pptx
+ create mode 100644 Module 6_Ansible (1).pptx
+ create mode 100644 Module 7_Selenium_And_Maven.pptx
+ create mode 100644 Module 8_jenkins.pptx
+ create mode 100644 Module 9_kubernetes.pptx
+ create mode 100644 SonarQube Server Installation.docx
+ create mode 100644 Sonatype NEXUS Installation Commands.docx
+ create mode 100644 Terraform.docx
+ create mode 100644 Web Application Deplymenyt on AWS.pdf
+ create mode 100644 modul 2.pptx
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git log
+commit 732c29f956feb09de89fedf55e4913a116795cb7 (HEAD -> master)
+Author: Kanchana Devi <kanchanaselvam@gmail.com>
+Date:   Wed Jan 24 07:16:35 2024 +0000
+
+    Devops Course Material
+
+commit 5c0d985bd7c91f2321e1f5a648d6e795743e06f7 (origin/main)
+Author: kanchanaselvam <156115618+kanchanaselvam@users.noreply.github.com>
+Date:   Mon Jan 22 08:20:20 2024 +0000
+
+    Create README.md
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git push --set-upstream origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/kanchanaselvam/Kanch_devopsCourse_2024.git'
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
+$ git push --set-upstream origin master
+info: please complete authentication in your browser...
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (20/20), 55.54 MiB | 1.18 MiB/s, done.
+Total 20 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/kanchanaselvam/Kanch_devopsCourse_2024/pull/new/master
+remote:
+To https://github.com/kanchanaselvam/Kanch_devopsCourse_2024.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+HP@LAPTOP-6TR8L3GE MINGW64 /e/Kanch Git Local Repo/Kanch Github Repo (master)
